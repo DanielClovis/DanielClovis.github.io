@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Clovis | Portfólio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      margin-top: 10px;
+      color: #cbd5f5;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #38bdf8;
+      border-left: 4px solid #38bdf8;
+      padding-left: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+    .card h3 {
+      color: #e5e7eb;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #cbd5f5;
+      margin-bottom: 15px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 5px;
+      padding: 8px 14px;
+      background: #38bdf8;
+      color: #020617;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+    .buttons a.github {
+      background: #334155;
+      color: #e5e7eb;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    ul li {
+      background: #020617;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Daniel Clovis</h1>
+    <p>Desenvolvedor em formação • Portfólio</p>
+  </header>
+
+  <section>
+    <h2>📂 Projetos</h2>
+    <div class="projects">
+
+      <div class="card">
+        <h3>🔍 Buscador de CEPs</h3>
+        <p>Aplicação que busca informações de endereço a partir de um CEP utilizando uma API pública.</p>
+        <div class="buttons">
+          <a href="https://danielclovis.github.io/Buscador-de-CEPS/" target="_blank">Demo</a>
+          <a class="github" href="https://github.com/DanielClovis/Buscador-de-CEPS" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>⚖️ Calculadora IMC</h3>
+        <p>Calculadora simples de IMC com validação de dados e exibição clara do resultado.</p>
+        <div class="buttons">
+          <a href="https://danielclovis.github.io/Calculadora-IMC/" target="_blank">Demo</a>
+          <a class="github" href="https://github.com/DanielClovis/Calculadora-IMC" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>🧪 Rick and Morty API</h3>
+        <p>Projeto que consome a API de Rick and Morty para listar personagens de forma dinâmica.</p>
+        <div class="buttons">
+          <a href="https://danielclovis.github.io/projeto-Rick-and-Morty/" target="_blank">Demo</a>
+          <a class="github" href="https://github.com/DanielClovis/projeto-Rick-and-Morty" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>🛠 Tecnologias</h2>
+    <ul>
+      <li>Java (em aprendizado)</li>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>APIs REST</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📚 Em aprendizado</h2>
+    <p>Atualmente focado em evoluir meus conhecimentos em Java, Programação Orientada a Objetos e boas práticas de desenvolvimento, sempre criando projetos práticos.</p>
+  </section>
+
+  <footer>
+    © 2026 • Daniel Clovis
+  </footer>
+
+</body>
+</html>
 
